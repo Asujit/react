@@ -1,0 +1,26 @@
+.body{
+  display: flex;
+
+}
+.parent{
+  background-color: #111;
+  width: 30%;
+  border-width: 1px;
+  border-color: rgb(226, 232, 237);
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  margin: 15px;
+}
+
+.profile{
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+}
+
+.btn{
+  padding: 10px;
+  border-radius: 10px;
+  background-color: beige;
+}
