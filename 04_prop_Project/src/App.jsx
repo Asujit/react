@@ -79,9 +79,9 @@ const App = () => {
   return (
     <div className="parent">
       
-      {jobsData.map((item) =>{
-        return <Card company={item.company} title={item.title} price={item.price} subtext={item.subtext} image={item.logo}/>
-      })}
+     {jobsData.map((item) =>{
+      return <Card company={item.company} image={item.logo} title={item.title} price={item.price} subtext={item.subtext}/>
+     })}
     </div>
   )
 }
