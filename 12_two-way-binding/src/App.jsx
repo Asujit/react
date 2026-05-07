@@ -24,6 +24,7 @@ const App = () => {
         <input
           type="text"
           placeholder="Enter current city"
+          value={city}
           onChange={(e) => {
             setCity(e.target.value);
           }}
