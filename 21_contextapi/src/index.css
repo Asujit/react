@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav{
+    
+}
+
+.light{
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+.dark{
+    background-color: rgb(13, 71, 68);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+    align-items: center;
+}
+
+
+.nav2{
+    display: flex;
+    gap: 30px;
+}
