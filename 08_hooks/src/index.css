@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text{
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.btn{
+    width: 40%;
+    height: 5%;
+    background-color: aqua;
+    color: black;
+}
