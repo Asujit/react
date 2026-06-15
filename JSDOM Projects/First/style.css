@@ -1,0 +1,33 @@
+body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+}
+
+.container{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    border: 3px dotted #f2ebeb;
+    background-color: blueviolet;
+}
+
+button{
+    padding: 10px 30px;
+    font-size: large;
+    margin-top: 10%;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    color: black;
+}
